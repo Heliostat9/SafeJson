@@ -1,0 +1,25 @@
+{
+    "pre-commit": {
+        "enabled": true,
+        "actions": [
+            {
+                "action": "composer check",
+                "options": {
+                    "ignoreErrors": false
+                }
+            },
+            {
+                "action": "composer stan",
+                "options": {
+                    "ignoreErrors": false
+                }
+            },
+            {
+                "action": "composer test",
+                "options": {
+                    "ignoreErrors": false
+                }
+            }
+        ]
+    }
+}
