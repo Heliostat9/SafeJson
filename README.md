@@ -13,7 +13,7 @@
 ## 🔧 Установка
 
 ```bash
-composer require safejson/safejson-schema
+composer require heliostat/safe-json
 ```
 
 Для разработки:
